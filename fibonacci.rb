@@ -14,7 +14,7 @@ p Fibonacci(8)
 
 #   Recursive Fibonacci method
 
-def FibonacciRecursive(num, fib_sequence = [0, 1])
+def Fibonacci_Recursive(num, fib_sequence = [0, 1])
   return 0 if num <= 0
   return fib_sequence[0, num] if num <= fib_sequence.size
 
